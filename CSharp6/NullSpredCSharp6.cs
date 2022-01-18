@@ -4,6 +4,7 @@ namespace CheatSheet.CSharp6
 {
     /// <summary>
     /// A form to avoid boilerplate null checking
+    /// For more detail: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/member-access-operators#null-conditional-operators--and-
     /// </summary>
     public static class NullSpredCSharp6
     {
