@@ -10,16 +10,16 @@ namespace CheatSheet.CSharp6
     {
         public static void Run()
         {
-            Person person = null;
+            Person? person = null;
 
             // Old way.
-            if (person != null && person.Name != null)
+            if (person == null || person.Name == null)
             {
                 Console.WriteLine("Old null check");
             }
 
             // New Way
-            if (person?.Name != null)
+            if (person?.Name == null)
             {
                 Console.WriteLine("New null check");
             }
