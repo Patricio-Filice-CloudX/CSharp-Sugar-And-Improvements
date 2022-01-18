@@ -1,7 +1,7 @@
 ﻿namespace CheatSheet.CSharp7
 {
     /// <summary>
-    /// Expanded Bodied expressions to constructors and destructors
+    /// Expanded Bodied expressions to constructors and destructors.
     /// For more detail: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/expression-bodied-members
     /// </summary>
     public static class BodiedExpressionCSharp7

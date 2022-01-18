@@ -34,14 +34,14 @@ namespace CheatSheet.CSharp8
             {
                 "Mark" => "Hi! I'm Mark",
                 null => throw new ArgumentNullException(),
-                _ => throw new InvalidOperationException()
+                _ => throw new NotImplementedException()
             };
             Console.WriteLine(newConsoleValue);
 
             var extendedNewConsoleValue = person switch
             {
+                Person nullPerson when nullPerson?.Name == null => throw new ArgumentNullException(),
                 Person { Name: "Mark" } => "Hi! I'm Mark",
-                null => throw new ArgumentNullException(),
                 Person personWithNameStartedInM when personWithNameStartedInM.Name.StartsWith('M') => "Hi! My name starts with an M",
                 _ => throw new InvalidOperationException()
             };

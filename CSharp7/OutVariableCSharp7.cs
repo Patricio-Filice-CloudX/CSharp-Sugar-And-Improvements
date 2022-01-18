@@ -1,7 +1,7 @@
 ﻿namespace CheatSheet.CSharp7
 {
     /// <summary>
-    /// Allowed variable definition on out parameters
+    /// Allowed variable definition on out parameters.
     /// For more detail: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/out-parameter-modifier
     /// </summary>
     public static class OutVariableCSharp7

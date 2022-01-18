@@ -3,7 +3,7 @@
 namespace CheatSheet.CSharp6
 {
     /// <summary>
-    /// Simplifying string formatting with in string variable binding
+    /// Simplifying string formatting with in string variable binding.
     /// For more detail: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated
     /// </summary>
     public static class StringInterpolationCSharp6

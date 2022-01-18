@@ -7,7 +7,8 @@
     {
         public static void Run()
         {
-            //See RecordPersonCSharp9 for record data types;
+            RecordCSharp9.Run();
+            TargedTypedCSharp9.Run();
         }
     }
 }

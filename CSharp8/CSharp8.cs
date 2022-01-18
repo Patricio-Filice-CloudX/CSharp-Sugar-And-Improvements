@@ -7,8 +7,10 @@
     {
         public static void Run()
         {
+            ArrayCSharp8.Run();
             NullCoalescingCSharp8.Run();
             PatternMatchingCSharp8.Run();
+            UsingCSharp8.Run();
         }
     }
 }
