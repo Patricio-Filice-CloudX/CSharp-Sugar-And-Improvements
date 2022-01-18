@@ -4,7 +4,7 @@ namespace CheatSheet.CSharp8
 {
     /// <summary>
     /// A more flexible way to handle alternative flows of execution, this way of coding partially resembles functional programming.
-    /// For more detail: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/proposals/csharp-7.0/pattern-matching
+    /// For more detail: https://docs.microsoft.com/en-us/archive/msdn-magazine/2019/may/csharp-8-0-pattern-matching-in-csharp-8-0
     /// </summary>
     public static class PatternMatchingCSharp8
     {

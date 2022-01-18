@@ -12,7 +12,7 @@
             LocalFunctionCSharp7.OldInnerRun();
 
             // New way.
-            static void NewInnerRun()
+            void NewInnerRun()
             {
                 Console.WriteLine("New Inner Run");
             }
