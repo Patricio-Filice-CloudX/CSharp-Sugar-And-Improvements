@@ -3,7 +3,7 @@
 namespace CheatSheet.CSharp6
 {
     /// <summary>
-    /// A way to bind compile check with property and value names.
+    /// A way to bind compile check with code definitions.
     /// For more detail: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/nameof
     /// </summary>
     public static class NameOfCSharp6
