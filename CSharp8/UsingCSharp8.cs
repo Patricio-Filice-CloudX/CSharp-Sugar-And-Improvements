@@ -3,7 +3,7 @@
 namespace CheatSheet.CSharp8
 {
     /// <summary>
-    /// Avoid repetitive coding when disposing is involved
+    /// Avoid repetitive coding when disposing is involved.
     /// For more detail (sync): https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-8#using-declarations
     /// For more detail (async): https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-8#asynchronous-disposable
     /// </summary>

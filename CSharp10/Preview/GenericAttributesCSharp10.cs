@@ -1,9 +1,9 @@
-﻿/// <summary>
-/// You can apply generics to an attribute
-/// For more detail: https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-10#generic-attributes
-/// </summary>
-namespace CheatSheet.CSharp10.Preview
+﻿namespace CheatSheet.CSharp10.Preview
 {
+    /// <summary>
+    /// You can apply generics to an attribute.
+    /// For more detail: https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-10#generic-attributes
+    /// </summary>
     public static class GenericAttributesCSharp10
     {
         public class OldGenericAttribute : Attribute
