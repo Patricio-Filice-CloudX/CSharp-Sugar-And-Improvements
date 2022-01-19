@@ -29,5 +29,10 @@
 
             ~NewVersion() => this.Name = null;
         }
+
+        public static void Run()
+        {
+            Console.WriteLine("New Bodied Expressions");
+        }
     }
 }

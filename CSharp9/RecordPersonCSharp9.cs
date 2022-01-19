@@ -16,7 +16,7 @@
             //Have value equality.
             Console.WriteLine($"Records are equal: {recordPerson == sameRecordPerson}");
 
-            //Non destrictive mutability with copy.
+            //Non destrictive mutability through copy.
             var copiedPerson = recordPerson with { Age = 5 };
 
             //Because records are positional the properties of comparison are implied.
